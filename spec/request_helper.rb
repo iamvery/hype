@@ -1,5 +1,6 @@
 require 'rack/test'
 require 'hype/app'
+require 'spec_helper'
 
 module Requests
   include Rack::Test::Methods
