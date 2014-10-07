@@ -7,6 +7,10 @@ module Hype
 
       attribute :title, String
       attribute :body, String
+
+      def word_count
+        body.to_s.split.size
+      end
     end
   end
 end
